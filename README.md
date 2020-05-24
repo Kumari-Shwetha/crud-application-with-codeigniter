@@ -12,8 +12,13 @@ $_config['base_url']='';
 
 4) create .htaccess file in root directory
 write the following rules
+
 RewriteEngine on
+
 RewriteCond %{REQUEST_FILENAME} !-f
+
 RewriteCond %{REQUEST_FILENAME} !-d
+
 RewriteRule ^(.*)$ /"your-folder-name"/index.php/$1 [L]
+
 
