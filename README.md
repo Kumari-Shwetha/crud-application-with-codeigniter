@@ -19,6 +19,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^(.*)$ /"your-folder-name"/index.php/$1 [L]
+RewriteRule ^(.*)$ /crud-application-with-codeigniter/index.php/$1 [L]
 
 
