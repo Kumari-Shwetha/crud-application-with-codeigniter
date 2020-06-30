@@ -22,3 +22,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /crud-application-with-codeigniter/index.php/$1 [L]
 
 
+[View Project](https://kumarishwetha.com/form-validation/)
+
+
+### Skills used: HTML,CSS,PHP,MySQL,Codeigniter
