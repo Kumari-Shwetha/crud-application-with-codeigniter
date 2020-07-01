@@ -12,7 +12,8 @@
         <div class="row">
             <div class="col-12">
                 <div class="panel panel-default">
-                    <div class="panel-heading"><?php echo $action; ?> Post <a href="<?php echo site_url('posts/'); ?>" class="fas fa-arrow-left float-right"></a></div>
+                    <div class="panel-heading"><span><?php echo $action; ?> Post </span><a href="<?php echo site_url('posts/'); ?>" class=" float-right btn btn-sm btn-info"><i class="fas fa-arrow-left"></i></a></div>
+                    <hr>
                     <div class="panel-body">
                         <form method="post" action="" class="form">
                             <div class="form-group">
