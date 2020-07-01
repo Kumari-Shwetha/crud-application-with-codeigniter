@@ -22,7 +22,7 @@ write the following rules
       RewriteRule ^(.*)$ /crud-application-with-codeigniter/index.php/$1 [L]
 
 
-[View Project](https://kumarishwetha.com/form-validation/)
+[View Project](https://kumarishwetha.com/codeigniter-crud/posts)
 
 
 ### Skills used: HTML,CSS,PHP,MySQL,Codeigniter
