@@ -12,7 +12,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="panel panel-default ">
-                    <div class="panel-heading">Posts <a href="<?php echo site_url('posts/add/'); ?>" class="fas fa-plus float-right" ></a></div>
+                    <div class="panel-heading mb-4"><span>Posts</span> <a href="<?php echo site_url('posts/add/'); ?>" class="float-right btn btn-sm btn-info" >Add Post <i class="fas fa-plus"></i></a></div>
                     <table class="table table-striped">
                         <thead>
                             <tr>
@@ -29,9 +29,9 @@
                                 <td><?php echo $post['title']; ?></td>
                                 <td><?php echo (strlen($post['content'])>150)?substr($post['content'],0,150).'...':$post['content']; ?></td>
                                 <td>
-                                    <a href="<?php echo site_url('posts/view/'.$post['id']); ?>" class="fas fa-eye-open"></a>
-                                    <a href="<?php echo site_url('posts/edit/'.$post['id']); ?>" class="fas fa-edit"></a>
-                                    <a href="<?php echo site_url('posts/delete/'.$post['id']); ?>" class="fas fa-trash" onclick="return confirm('Are you sure to delete?')"></a>
+                                    <a href="<?php echo site_url('posts/view/'.$post['id']); ?>" class="btn btn-sm btn-info"><i class="fas fa-eye"></i></a>
+                                    <a href="<?php echo site_url('posts/edit/'.$post['id']); ?>" class="btn btn-warning btn-sm"><i class="fas fa-edit"></i></a>
+                                    <a href="<?php echo site_url('posts/delete/'.$post['id']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure to delete?')"><i class="fas fa-trash"></i></a>
                                 </td>
                             </tr>
                             <?php endforeach; else: ?>
