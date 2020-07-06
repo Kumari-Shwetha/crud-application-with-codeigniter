@@ -13,7 +13,8 @@
             <div class="col-12">
                 <div class="panel panel-default ">
                     <div class="panel-heading mb-4"><span>Posts</span> <a href="<?php echo site_url('posts/add/'); ?>" class="float-right btn btn-sm btn-info" >Add Post <i class="fas fa-plus"></i></a></div>
-                    <table class="table table-striped">
+                    <div class="table-responsive">
+                    	<table class="table table-striped">
                         <thead>
                             <tr>
                                 <th width="5%">ID</th>
@@ -39,6 +40,7 @@
                             <?php endif; ?>
                         </tbody>
                     </table>
+                    </div>
                 </div>
             </div>
         </div>
