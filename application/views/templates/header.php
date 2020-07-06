@@ -11,10 +11,11 @@
     	}
     	.jumbotron{
     		background-color: #3D348B;
-    		position: absolute;
+    		/*position: absolute;
     		top: 50%;
     		left: 50%;
-    		transform: translate(-50%, -50%);
+    		transform: translate(-50%, -50%);*/
+            margin-top: 50px !important;
     		width: 100%;
     	}
     	.table{
